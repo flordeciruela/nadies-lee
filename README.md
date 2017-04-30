@@ -4,7 +4,11 @@
 
 ## Colaboradores:
 
-Nohemi yetsy huayta loroña
-Daniel Alonso Talaverano Rojas
-Wendy Reyes Santana
-Daniel Hernandez Perez
+1. Nohemi yetsy huayta loroña
+1. Daniel Alonso Talaverano Rojas
+1. Wendy Reyes Santana
+1. Daniel Hernandez Perez
+
+## Link Gh-pages:
+
+[Ver demo] (https://flordeciruela.github.io/panda-panda/)
