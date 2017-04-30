@@ -6,7 +6,7 @@ var completar3 = document.getElementById("input-3");
 var completar4 = document.getElementById("input-4");
 
 play1.addEventListener("click", function(event) {
-	if(completar1.value == "habitable" && completar2.value == "Menos de 10%" && completar3.value == "90% del espacio" && completar4.value == "50 y un 80%") {
+	if(completar1.value == "50 y un 80%" && completar2.value == "90% del espacio" && completar3.value == "habitable" && completar4.value == "Menos de 10%") {
 		alert("Has ganado 4 puntos!!");
 		document.getElementById('completar').reset();
 		window.location = "game2.html";
