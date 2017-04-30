@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-style: helvetica;
+	font-size: 20px;
+	color: #fff;
+}
+
+header {
+	background-color: #4CB050;
+	color: #fff;
+	width: 70%;
+	height: 80px;
+	margin: auto;
+}
+
+header li{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.post {
+	padding: 20px;
+	background-color: #80a0c0;
+	width: 70%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+article {
+	width: 100%;
+}
+
+
+#link {
+	background-color: red;
+}
+ img {
+	 width: 200px;
+	 height: 200px;
+ }
