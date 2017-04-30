@@ -1,6 +1,6 @@
 * {
 	font-family: helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 body {
@@ -17,18 +17,23 @@ article {
 	position: relative;
 	margin: 0 auto;
 	width: 70%;
-	height: 100%;
+	height: inherit;
 	background-color: rgba(6, 6, 6, 1);
 	box-sizing: border-box;
-	padding: 3%;
+	padding: 50px;
 }
 
 h1 {
 	font-size: 60px;
 	color: #02f59e;
+	margin: 0px;
 /*	font-family: 'Sriracha', cursive;*/
 /*font-family: 'Monoton', cursive;*/
 font-family: 'Cabin Sketch', cursive;
+}
+
+.green {
+	color: #9B4FFD;
 }
 
 .games {
@@ -99,3 +104,9 @@ font-family: 'Cabin Sketch', cursive;
 	 color: black;
 	 border-radius: 5px;
  }
+
+.completar {
+	height: 1em;,
+	font-family: helvetica;
+	font-size: 18px;
+}
