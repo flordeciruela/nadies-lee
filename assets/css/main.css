@@ -15,30 +15,43 @@ body {
 
 article {
 	position: relative;
-	margin: 0 auto;
+	margin: 2em auto;
 	width: 70%;
-	height: inherit;
-	background-color: rgba(6, 6, 6, 1);
+	min-height: 24em;
+	background-color: white;
 	box-sizing: border-box;
 	padding: 50px;
+	overflow: hidden;
+}
+
+.puntuacion {
+	text-align: center;
+}
+
+.puntuacion h1, .puntuacion button{
+	margin: 30px;
 }
 
 h1 {
 	font-size: 60px;
-	color: #02f59e;
+	color: #9e02f5;
 	margin: 0px;
-/*	font-family: 'Sriracha', cursive;*/
-/*font-family: 'Monoton', cursive;*/
-font-family: 'Cabin Sketch', cursive;
+	font-family: 'Sriracha', cursive;
 }
 
-.green {
-	color: #9B4FFD;
+.sub {
+	font-family: 'Sriracha', cursive;
+	color: #0259f5;
+	font-size: 28px;
 }
 
 .games {
-	color: white;
+	color: rgb(50, 51, 50);
 	height: 100%;
+}
+
+input {
+	background-color: #faf997;
 }
 
 .box {
@@ -53,6 +66,10 @@ font-family: 'Cabin Sketch', cursive;
 	 width: 50%;
 	 height: 50%;
 	 padding: 10px;
+ }
+
+ li {
+	 margin: 10px;
  }
 
   .art {
@@ -100,8 +117,9 @@ font-family: 'Cabin Sketch', cursive;
  button {
 	 border-style: none;
 	 padding: 10px;
-	 background-color: #fff;
-	 color: black;
+	 background-color: rgb(50, 51, 50);
+	 color: #02f59e;
+	 font-weight: bold;
 	 border-radius: 5px;
  }
 
